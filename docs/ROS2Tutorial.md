@@ -95,9 +95,13 @@ ROS 2的命令行工具是日常开发、调试和检查系统状态不可或缺
 
 ### 1. 安装 ROS 2 Humble
 
-本教程统一使用 Ubuntu 22.04 和 ROS 2 Humble。按照 [ROS 2 Humble 官方 Ubuntu 安装说明](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debs.html) 配置软件源并安装 `ros-humble-desktop` 和 `ros-dev-tools`。桌面版便于完成本教程中的 turtlesim、RViz 和 rqt 练习。
+可以使用小鱼提供的第三方安装工具，并在菜单中选择 Humble
 
-也可以使用小鱼提供的第三方安装工具，并在菜单中选择 Humble；具体命令以 [FishROS 项目说明](https://github.com/fishros/install) 为准。
+```bash
+source <(wget -qO- http://fishros.com/install)
+```
+
+具体命令以 [FishROS 项目说明](https://github.com/fishros/install) 为准。
 
 安装完成后，在每个新终端先加载 ROS 环境：
 
