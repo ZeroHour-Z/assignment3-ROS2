@@ -25,7 +25,7 @@
 robomaster-camera-assignment/          # 同时作为 colcon 工作空间
 ├── AGENTS.md                         # AI 助教规范
 ├── README.md
-├── ROS2Tutorial.md                   # ROS 2 教程
+├── docs/ROS2Tutorial.md              # ROS 2 教程
 ├── docs/assignment.md                # 作业要求
 └── src/hikrobot_camera/              # ROS 2 功能包
     ├── package.xml                   # 包信息与依赖
