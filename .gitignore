@@ -1,0 +1,22 @@
+# colcon outputs
+build/
+install/
+log/
+# Editors and language caches
+.DS_Store
+.vscode/
+.idea/
+__pycache__/
+*.pyc
+# Local device settings and collected data
+config.local.yaml
+data/
+recordings/
+*.bag
+*.db3
+*.mcap
+# Vendor downloads and local SDK binaries
+vendor/
+*.so
+*.so.*
+*.a

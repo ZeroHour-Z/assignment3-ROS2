@@ -1,0 +1,5 @@
+# Only parameters currently supported by the scaffold are listed here.
+# TODO(student): Design and implement camera parameters before adding them.
+/hikrobot_camera:
+  ros__parameters:
+    use_sim_time: false
